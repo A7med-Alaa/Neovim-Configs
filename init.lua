@@ -40,11 +40,10 @@ vim.keymap.set("n", "<leader>bd", ":bd<CR>")
 
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<left><left><left>]])
 
-
-
 vim.o.statusline = table.concat({
   "%f",
   "%h%m%r ", -- flags
+  "[%{get(b:,'gitsigns_head','')}]",
   "%=", -- separate left and right sections
   "  %{luaeval(\"require('statusline_functions').lsp_status()\")}",
   "  %{luaeval(\"require('statusline_functions').lsp_progress()\")}",
