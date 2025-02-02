@@ -20,9 +20,9 @@ return {
     vim.g.gruvbox_material_ui_contrast = 'high'
     vim.cmd.colorscheme('gruvbox-material')
 
-    vim.api.nvim_set_hl(0, 'LineNrAbove', { fg='#77948b', bold=true })
-    vim.api.nvim_set_hl(0, 'LineNr', { fg='#b09c84', bold=true })
-    vim.api.nvim_set_hl(0, 'LineNrBelow', { fg='#c37b90', bold=true })
+    -- vim.api.nvim_set_hl(0, 'LineNrAbove', { fg='#77948b', bold=true })
+    -- vim.api.nvim_set_hl(0, 'LineNr', { fg='#b09c84', bold=true })
+    -- vim.api.nvim_set_hl(0, 'LineNrBelow', { fg='#c37b90', bold=true })
   end
   --
   -- "folke/tokyonight.nvim",

@@ -38,7 +38,7 @@ vim.keymap.set("v", "<", "<gv")
 
 vim.keymap.set("n", "<leader>bd", ":bd<CR>")
 
-vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<left><left><left>]])
+vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<left><left><left>]]) 
 
 vim.o.statusline = table.concat({
   "%f",
